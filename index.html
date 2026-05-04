@@ -121,6 +121,39 @@
         .location-area { font-family: 'Cinzel', serif; font-weight: bold; font-size: 15px; margin-top: 20px; line-height: 1.6; }
         .reception-tag { color: var(--nude-soft); font-size: 12px; letter-spacing: 3px; margin-top: 15px; font-weight: bold; }
 
+        /* --- DRESS CODE STYLE --- */
+        .dress-code-box {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px dotted var(--nude-soft);
+        }
+        .dress-code-title {
+            font-family: 'Cinzel', serif;
+            font-size: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--nude-soft);
+            margin-bottom: 8px;
+        }
+        .dress-code-text {
+            font-size: 14px;
+            color: #7d5a62;
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+        .swatch-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .swatch {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
         .names-list { font-size: 13px; letter-spacing: 1px; line-height: 2.3; text-transform: uppercase; padding: 20px 0; color: #7d5a62; }
 
         /* --- RSVP --- */
@@ -213,6 +246,18 @@
                     <p>SAN ROQUE CATHOLIC PARISH CHURCH</p>
                     <p class="reception-tag">RECEPTION FOLLOW AT:</p>
                     <p>TERRA ROSA RESORT</p>
+                </div>
+
+                <!-- DRESS CODE ADDITION -->
+                <div class="dress-code-box">
+                    <p class="dress-code-title">Dress Code</p>
+                    <p class="dress-code-text">Kindly wear your best Nude or Pastel outfit</p>
+                    <div class="swatch-group">
+                        <span class="swatch" style="background-color: #ac7d88;"></span>
+                        <span class="swatch" style="background-color: #d6b7bb;"></span>
+                        <span class="swatch" style="background-color: #f9d8d6;"></span>
+                        <span class="swatch" style="background-color: #fdf6f7; border: 1px solid #eee;"></span>
+                    </div>
                 </div>
             </div>
         </div>
